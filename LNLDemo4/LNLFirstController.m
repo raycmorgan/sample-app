@@ -8,7 +8,9 @@
 
 #import "LNLFirstController.h"
 
-@implementation LNLFirstController
+@implementation LNLFirstController {
+    
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

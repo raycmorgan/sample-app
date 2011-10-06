@@ -9,9 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface LNLRootViewController : UIViewController {
-    
-}
+@interface LNLRootViewController : UIViewController
 
 - (IBAction)handleButtonPress;
 

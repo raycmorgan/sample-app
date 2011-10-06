@@ -10,7 +10,9 @@
 #import "LNLEchoViewController.h"
 
 
-@implementation LNLRootViewController
+@implementation LNLRootViewController {
+    
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

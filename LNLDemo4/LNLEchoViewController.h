@@ -9,10 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface LNLEchoViewController : UIViewController {
-    IBOutlet UILabel *label;
-    IBOutlet UITextField *textField;
-}
+@interface LNLEchoViewController : UIViewController
 
 @property (nonatomic, retain) IBOutlet UILabel *label;
 @property (nonatomic, retain) IBOutlet UITextField *textField;

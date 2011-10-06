@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 
 
-@interface LNLFirstController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
-    
-}
+@interface LNLFirstController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end

@@ -9,7 +9,10 @@
 #import "LNLEchoViewController.h"
 
 
-@implementation LNLEchoViewController
+@implementation LNLEchoViewController {
+    UILabel *label;
+    UITextField *textField;
+}
 
 @synthesize label, textField;
 
