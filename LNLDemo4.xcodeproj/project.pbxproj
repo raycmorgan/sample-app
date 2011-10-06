@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D210F0138EE50600F75D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D210EF138EE50600F75D36 /* UIKit.framework */; };
+		03D210F2138EE50600F75D36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D210F1138EE50600F75D36 /* Foundation.framework */; };
+		03D210F4138EE50600F75D36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D210F3138EE50600F75D36 /* CoreGraphics.framework */; };
+		03D210FA138EE50600F75D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03D210F8138EE50600F75D36 /* InfoPlist.strings */; };
+		03D210FD138EE50600F75D36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D210FC138EE50600F75D36 /* main.m */; };
+		03D21100138EE50600F75D36 /* LNLDemo4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D210FF138EE50600F75D36 /* LNLDemo4AppDelegate.m */; };
+		03D21103138EE50600F75D36 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D21101138EE50600F75D36 /* MainWindow.xib */; };
+		03D2110A138EE50600F75D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D210EF138EE50600F75D36 /* UIKit.framework */; };
+		03D2110B138EE50600F75D36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D210F1138EE50600F75D36 /* Foundation.framework */; };
+		03D2110C138EE50600F75D36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D210F3138EE50600F75D36 /* CoreGraphics.framework */; };
+		03D21114138EE50600F75D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03D21112138EE50600F75D36 /* InfoPlist.strings */; };
+		03D21117138EE50600F75D36 /* LNLDemo4Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 03D21116138EE50600F75D36 /* LNLDemo4Tests.h */; };
+		03D21119138EE50600F75D36 /* LNLDemo4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D21118138EE50600F75D36 /* LNLDemo4Tests.m */; };
+		03D21126138EE60200F75D36 /* LNLFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D21124138EE60200F75D36 /* LNLFirstController.m */; };
+		03D21127138EE60200F75D36 /* LNLFirstController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D21125138EE60200F75D36 /* LNLFirstController.xib */; };
+		03D2112B138EE71800F75D36 /* LNLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D21129138EE71800F75D36 /* LNLRootViewController.m */; };
+		03D2112C138EE71800F75D36 /* LNLRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D2112A138EE71800F75D36 /* LNLRootViewController.xib */; };
+		03D21130138EE82E00F75D36 /* LNLEchoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D2112E138EE82E00F75D36 /* LNLEchoViewController.m */; };
+		03D21131138EE82E00F75D36 /* LNLEchoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D2112F138EE82E00F75D36 /* LNLEchoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03D2110D138EE50600F75D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D210E2138EE50600F75D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D210EA138EE50600F75D36;
+			remoteInfo = LNLDemo4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D210EB138EE50600F75D36 /* LNLDemo4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNLDemo4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D210EF138EE50600F75D36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03D210F1138EE50600F75D36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03D210F3138EE50600F75D36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03D210F7138EE50600F75D36 /* LNLDemo4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LNLDemo4-Info.plist"; sourceTree = "<group>"; };
+		03D210F9138EE50600F75D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03D210FB138EE50600F75D36 /* LNLDemo4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LNLDemo4-Prefix.pch"; sourceTree = "<group>"; };
+		03D210FC138EE50600F75D36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03D210FE138EE50600F75D36 /* LNLDemo4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LNLDemo4AppDelegate.h; path = LNLDemo4/LNLDemo4AppDelegate.h; sourceTree = "<group>"; };
+		03D210FF138EE50600F75D36 /* LNLDemo4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LNLDemo4AppDelegate.m; path = LNLDemo4/LNLDemo4AppDelegate.m; sourceTree = "<group>"; };
+		03D21102138EE50600F75D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		03D21109138EE50600F75D36 /* LNLDemo4Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LNLDemo4Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D21111138EE50600F75D36 /* LNLDemo4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LNLDemo4Tests-Info.plist"; sourceTree = "<group>"; };
+		03D21113138EE50600F75D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03D21115138EE50600F75D36 /* LNLDemo4Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LNLDemo4Tests-Prefix.pch"; sourceTree = "<group>"; };
+		03D21116138EE50600F75D36 /* LNLDemo4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNLDemo4Tests.h; sourceTree = "<group>"; };
+		03D21118138EE50600F75D36 /* LNLDemo4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNLDemo4Tests.m; sourceTree = "<group>"; };
+		03D21123138EE60200F75D36 /* LNLFirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNLFirstController.h; path = LNLDemo4/LNLFirstController.h; sourceTree = "<group>"; };
+		03D21124138EE60200F75D36 /* LNLFirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNLFirstController.m; path = LNLDemo4/LNLFirstController.m; sourceTree = "<group>"; };
+		03D21125138EE60200F75D36 /* LNLFirstController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LNLFirstController.xib; path = LNLDemo4/LNLFirstController.xib; sourceTree = "<group>"; };
+		03D21128138EE71800F75D36 /* LNLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNLRootViewController.h; path = LNLDemo4/LNLRootViewController.h; sourceTree = "<group>"; };
+		03D21129138EE71800F75D36 /* LNLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNLRootViewController.m; path = LNLDemo4/LNLRootViewController.m; sourceTree = "<group>"; };
+		03D2112A138EE71800F75D36 /* LNLRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LNLRootViewController.xib; path = LNLDemo4/LNLRootViewController.xib; sourceTree = "<group>"; };
+		03D2112D138EE82E00F75D36 /* LNLEchoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNLEchoViewController.h; path = LNLDemo4/LNLEchoViewController.h; sourceTree = "<group>"; };
+		03D2112E138EE82E00F75D36 /* LNLEchoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNLEchoViewController.m; path = LNLDemo4/LNLEchoViewController.m; sourceTree = "<group>"; };
+		03D2112F138EE82E00F75D36 /* LNLEchoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LNLEchoViewController.xib; path = LNLDemo4/LNLEchoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03D210E8138EE50600F75D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D210F0138EE50600F75D36 /* UIKit.framework in Frameworks */,
+				03D210F2138EE50600F75D36 /* Foundation.framework in Frameworks */,
+				03D210F4138EE50600F75D36 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D21105138EE50600F75D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D2110A138EE50600F75D36 /* UIKit.framework in Frameworks */,
+				03D2110B138EE50600F75D36 /* Foundation.framework in Frameworks */,
+				03D2110C138EE50600F75D36 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B0F45D143E5F90005E2CB7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03D21123138EE60200F75D36 /* LNLFirstController.h */,
+				03D21124138EE60200F75D36 /* LNLFirstController.m */,
+				03D21128138EE71800F75D36 /* LNLRootViewController.h */,
+				03D21129138EE71800F75D36 /* LNLRootViewController.m */,
+				03D2112D138EE82E00F75D36 /* LNLEchoViewController.h */,
+				03D2112E138EE82E00F75D36 /* LNLEchoViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		03B0F45F143E5FA6005E2CB7 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				03D210FE138EE50600F75D36 /* LNLDemo4AppDelegate.h */,
+				03D210FF138EE50600F75D36 /* LNLDemo4AppDelegate.m */,
+			);
+			name = "App Delegates";
+			sourceTree = "<group>";
+		};
+		03D210E0138EE50600F75D36 = {
+			isa = PBXGroup;
+			children = (
+				03D210F6138EE50600F75D36 /* Supporting Files */,
+				03B0F45F143E5FA6005E2CB7 /* App Delegates */,
+				03B0F45D143E5F90005E2CB7 /* View Controllers */,
+				03D21122138EE50D00F75D36 /* XIB */,
+				03D2110F138EE50600F75D36 /* LNLDemo4Tests */,
+				03D210EE138EE50600F75D36 /* Frameworks */,
+				03D210EC138EE50600F75D36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03D210EC138EE50600F75D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03D210EB138EE50600F75D36 /* LNLDemo4.app */,
+				03D21109138EE50600F75D36 /* LNLDemo4Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03D210EE138EE50600F75D36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03D210EF138EE50600F75D36 /* UIKit.framework */,
+				03D210F1138EE50600F75D36 /* Foundation.framework */,
+				03D210F3138EE50600F75D36 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03D210F6138EE50600F75D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03D210F7138EE50600F75D36 /* LNLDemo4-Info.plist */,
+				03D210F8138EE50600F75D36 /* InfoPlist.strings */,
+				03D210FB138EE50600F75D36 /* LNLDemo4-Prefix.pch */,
+				03D210FC138EE50600F75D36 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = LNLDemo4;
+			sourceTree = "<group>";
+		};
+		03D2110F138EE50600F75D36 /* LNLDemo4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				03D21116138EE50600F75D36 /* LNLDemo4Tests.h */,
+				03D21118138EE50600F75D36 /* LNLDemo4Tests.m */,
+				03D21110138EE50600F75D36 /* Supporting Files */,
+			);
+			path = LNLDemo4Tests;
+			sourceTree = "<group>";
+		};
+		03D21110138EE50600F75D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03D21111138EE50600F75D36 /* LNLDemo4Tests-Info.plist */,
+				03D21112138EE50600F75D36 /* InfoPlist.strings */,
+				03D21115138EE50600F75D36 /* LNLDemo4Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03D21122138EE50D00F75D36 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				03D21101138EE50600F75D36 /* MainWindow.xib */,
+				03D21125138EE60200F75D36 /* LNLFirstController.xib */,
+				03D2112A138EE71800F75D36 /* LNLRootViewController.xib */,
+				03D2112F138EE82E00F75D36 /* LNLEchoViewController.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03D210EA138EE50600F75D36 /* LNLDemo4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D2111C138EE50600F75D36 /* Build configuration list for PBXNativeTarget "LNLDemo4" */;
+			buildPhases = (
+				03D210E7138EE50600F75D36 /* Sources */,
+				03D210E8138EE50600F75D36 /* Frameworks */,
+				03D210E9138EE50600F75D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LNLDemo4;
+			productName = LNLDemo4;
+			productReference = 03D210EB138EE50600F75D36 /* LNLDemo4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03D21108138EE50600F75D36 /* LNLDemo4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D2111F138EE50600F75D36 /* Build configuration list for PBXNativeTarget "LNLDemo4Tests" */;
+			buildPhases = (
+				03D21104138EE50600F75D36 /* Sources */,
+				03D21105138EE50600F75D36 /* Frameworks */,
+				03D21106138EE50600F75D36 /* Resources */,
+				03D21107138EE50600F75D36 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D2110E138EE50600F75D36 /* PBXTargetDependency */,
+			);
+			name = LNLDemo4Tests;
+			productName = LNLDemo4Tests;
+			productReference = 03D21109138EE50600F75D36 /* LNLDemo4Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03D210E2138EE50600F75D36 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 03D210E5138EE50600F75D36 /* Build configuration list for PBXProject "LNLDemo4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03D210E0138EE50600F75D36;
+			productRefGroup = 03D210EC138EE50600F75D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03D210EA138EE50600F75D36 /* LNLDemo4 */,
+				03D21108138EE50600F75D36 /* LNLDemo4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D210E9138EE50600F75D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D210FA138EE50600F75D36 /* InfoPlist.strings in Resources */,
+				03D21103138EE50600F75D36 /* MainWindow.xib in Resources */,
+				03D21127138EE60200F75D36 /* LNLFirstController.xib in Resources */,
+				03D2112C138EE71800F75D36 /* LNLRootViewController.xib in Resources */,
+				03D21131138EE82E00F75D36 /* LNLEchoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D21106138EE50600F75D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D21114138EE50600F75D36 /* InfoPlist.strings in Resources */,
+				03D21117138EE50600F75D36 /* LNLDemo4Tests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D21107138EE50600F75D36 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D210E7138EE50600F75D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D210FD138EE50600F75D36 /* main.m in Sources */,
+				03D21100138EE50600F75D36 /* LNLDemo4AppDelegate.m in Sources */,
+				03D21126138EE60200F75D36 /* LNLFirstController.m in Sources */,
+				03D2112B138EE71800F75D36 /* LNLRootViewController.m in Sources */,
+				03D21130138EE82E00F75D36 /* LNLEchoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D21104138EE50600F75D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D21119138EE50600F75D36 /* LNLDemo4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03D2110E138EE50600F75D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D210EA138EE50600F75D36 /* LNLDemo4 */;
+			targetProxy = 03D2110D138EE50600F75D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03D210F8138EE50600F75D36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D210F9138EE50600F75D36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03D21101138EE50600F75D36 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D21102138EE50600F75D36 /* en */,
+			);
+			name = MainWindow.xib;
+			path = LNLDemo4;
+			sourceTree = "<group>";
+		};
+		03D21112138EE50600F75D36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D21113138EE50600F75D36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03D2111A138EE50600F75D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03D2111B138EE50600F75D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		03D2111D138EE50600F75D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LNLDemo4/LNLDemo4-Prefix.pch";
+				INFOPLIST_FILE = "LNLDemo4/LNLDemo4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03D2111E138EE50600F75D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LNLDemo4/LNLDemo4-Prefix.pch";
+				INFOPLIST_FILE = "LNLDemo4/LNLDemo4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03D21120138EE50600F75D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LNLDemo4.app/LNLDemo4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LNLDemo4Tests/LNLDemo4Tests-Prefix.pch";
+				INFOPLIST_FILE = "LNLDemo4Tests/LNLDemo4Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		03D21121138EE50600F75D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LNLDemo4.app/LNLDemo4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LNLDemo4Tests/LNLDemo4Tests-Prefix.pch";
+				INFOPLIST_FILE = "LNLDemo4Tests/LNLDemo4Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D210E5138EE50600F75D36 /* Build configuration list for PBXProject "LNLDemo4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D2111A138EE50600F75D36 /* Debug */,
+				03D2111B138EE50600F75D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D2111C138EE50600F75D36 /* Build configuration list for PBXNativeTarget "LNLDemo4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D2111D138EE50600F75D36 /* Debug */,
+				03D2111E138EE50600F75D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D2111F138EE50600F75D36 /* Build configuration list for PBXNativeTarget "LNLDemo4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D21120138EE50600F75D36 /* Debug */,
+				03D21121138EE50600F75D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03D210E2138EE50600F75D36 /* Project object */;
+}
